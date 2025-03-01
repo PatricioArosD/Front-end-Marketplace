@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "titulo": "Compaq NX",
+    "descripcion": "Potente y versátil, este laptop combina rendimiento y portabilidad para que puedas trabajar, estudiar o disfrutar de entretenimiento sin límites. Equipado con un procesador Intel Core i7 de 13ª generación, pantalla Full HD de 15.6 pulgadas y batería de hasta 10 horas de duración, es la elección ideal para quienes buscan eficiencia y comodidad en un solo dispositivo.",
+    "precio": 1595000,
+    "fecha": "2023-10-01",
+    "imagenes": "https://hire.vsl-uk.com/wp-content/uploads/2017/10/HP-250-G5-Laptop-Main.jpg",
+    "categoria": "PC/Laptop",
+    "usuario": {
+      "id": 1,
+      "nombre": "Usuario 1"
+    }
+  },
+  {
+    "id": 2,
+    "titulo": "Earpods 3XPLUS",
+    "descripcion": "Los Earpods 3XPLUS con conector Lightning ofrecen sonido de alta fidelidad y un diseño ergonómico para mayor comodidad. Cuentan con altavoces optimizados, control remoto integrado para ajustar volumen y llamadas, y compatibilidad con dispositivos iOS con puerto Lightning.",
+    "precio": 7250,
+    "fecha": "2023-10-02",
+    "imagenes": "https://image.rakuten.co.jp/gadgetgate/cabinet/apple/ep-l/mmtn2ja_05.jpg",
+    "categoria": "Audio",
+    "usuario": {
+      "id": 2,
+      "nombre": "Usuario 2"
+    }
+  },
+  {
+    "id": 3,
+    "titulo": "Monitor Huascar",
+    "descripcion": "Los monitores para PC ofrecen una experiencia visual nítida y fluida, ideales para trabajo, gaming o entretenimiento. Con pantallas Full HD o 4K, tasas de refresco de hasta 165Hz y tecnología IPS o VA, garantizan colores vibrantes y ángulos de visión amplios. Modelos avanzados incluyen HDR, FreeSync/G-Sync y conectividad HDMI o DisplayPort para un rendimiento óptimo.",
+    "precio": 59900,
+    "fecha": "2023-10-03",
+    "imagenes": "https://media.ldlc.com/r1600/ld/products/00/06/03/72/LD0006037211.jpg",
+    "categoria": "Accesorios",
+    "usuario": {
+      "id": 3,
+      "nombre": "Usuario 3"
+    }
+  },
+  {
+    "id": 4,
+    "titulo": "Headphone Acanthus",
+    "descripcion": "Los Headphone Acanthus son auriculares inalámbricos con cancelación de ruido activa líder en la industria, gracias a su procesador Integrated Processor V1. Ofrecen un sonido Hi-Res con controladores de 30 mm, conectividad Bluetooth 5.2 con soporte para LDAC, y una batería de hasta 30 horas con carga rápida (3 horas de uso con solo 3 minutos de carga). Su diseño ligero y almohadillas de espuma viscoelástica garantizan máxima comodidad para largas sesiones de escucha.",
+    "precio": 95900,
+    "fecha": "2023-10-04",
+    "imagenes": "https://topesdegama.com/app/uploads-topesdegama.com/2020/05/Trust-GXT-390-Juga.jpg",
+    "categoria": "Audio",
+    "usuario": {
+      "id": 4,
+      "nombre": "Usuario 4"
+    }
+  },
+  {
+    "id": 5,
+    "titulo": "Mouse Rat4",
+    "descripcion": "Los Mouse Rat4 son mouse inalámbricos diseñados para precisión y comodidad. Equipados con un sensor láser de 1000 DPI, ofrecen un desplazamiento fluido en diversas superficies. Su conectividad inalámbrica de 2.4 GHz con receptor USB Unifying garantiza una conexión estable. Cuenta con 7 botones programables y una rueda de desplazamiento ultra rápida. Su batería de larga duración permite hasta 3 años de uso con dos pilas AA, ideal para productividad y uso diario.",
+    "precio": 6450,
+    "fecha": "2023-10-05",
+    "imagenes": "https://pcbuildsonabudget.com/wp-content/uploads/2018/03/pictek-gaming-mouse-review-1024x1024.jpg",
+    "categoria": "Accesorios",
+    "usuario": {
+      "id": 5,
+      "nombre": "Usuario 5"
+    }
+  },
+  {
+    "id": 6,
+    "titulo": "Keyboard Vicho Bluetooth",
+    "descripcion": "Los teclados para PC ofrecen comodidad y precisión para trabajar, jugar o escribir. Con diseños ergonómicos, teclas de respuesta rápida y opciones con retroiluminación RGB, garantizan una experiencia fluida. Modelos avanzados incluyen teclas mecánicas, conectividad inalámbrica y funciones multimedia para mayor productividad.",
+    "precio": 18500,
+    "fecha": "2023-10-06",
+    "imagenes": "https://tse1.mm.bing.net/th?id=OIP.NL92pXWm9DR7DKk1QYGUwQHaHa&pid=Api",
+    "categoria": "Accesorios",
+    "usuario": {
+      "id": 6,
+      "nombre": "Usuario 6"
+    }
+  },
+  {
+    "id": 7,
+    "titulo": "Smartwatch Kronos X5",
+    "descripcion": "El Smartwatch Kronos X5 combina diseño elegante con tecnología avanzada. Cuenta con pantalla AMOLED de 1.4 pulgadas, sensor de ritmo cardíaco, monitoreo de oxígeno en sangre y GPS integrado. Resistente al agua hasta 50 metros, con una autonomía de hasta 10 días, es el compañero perfecto para tu día a día y actividades deportivas.",
+    "precio": 225900,
+    "fecha": "2023-10-07",
+    "imagenes": "https://cdn.pixabay.com/photo/2016/03/09/09/17/watch-1245791_960_720.jpg",
+    "categoria": "Accesorios",
+    "usuario": {
+      "id": 7,
+      "nombre": "Usuario 7"
+    }
+  },
+  {
+    "id": 8,
+    "titulo": "Tablet Orion Pro",
+    "descripcion": "La Tablet Orion Pro ofrece una experiencia fluida con su pantalla IPS de 10.5 pulgadas y resolución 2K. Equipada con un procesador Octa-Core, 6GB de RAM y 128GB de almacenamiento expandible, es ideal para el trabajo, estudio o entretenimiento. Incluye lápiz óptico y modo multitarea para mayor productividad.",
+    "precio": 899000,
+    "fecha": "2023-10-08",
+    "imagenes": "https://cdn.pixabay.com/photo/2017/06/26/09/25/tablet-2447868_960_720.jpg",
+    "categoria": "PC/Laptop",
+    "usuario": {
+      "id": 8,
+      "nombre": "Usuario 8"
+    }
+  },
+  {
+    "id": 9,
+    "titulo": "Disco Duro Externo Titan 2TB",
+    "descripcion": "El Disco Duro Externo Titan 2TB ofrece almacenamiento seguro y veloz gracias a su tecnología USB 3.1. Compatible con Windows, macOS y consolas, brinda transferencias rápidas y resistencia a golpes. Su diseño compacto lo hace perfecto para llevar todos tus archivos a donde vayas.",
+    "precio": 259900,
+    "fecha": "2023-10-09",
+    "imagenes": "https://cdn.pixabay.com/photo/2017/03/08/07/40/backup-2125379_960_720.jpg",
+    "categoria": "Almacenamiento",
+    "usuario": {
+      "id": 9,
+      "nombre": "Usuario 9"
+    }
+  },
+  {
+    "id": 10,
+    "titulo": "Router MaxSpeed AX3000",
+    "descripcion": "El Router MaxSpeed AX3000 proporciona conectividad WiFi 6 con velocidades de hasta 3 Gbps, ideal para streaming 4K, gaming en línea y hogares con múltiples dispositivos. Cuenta con tecnología MU-MIMO, OFDMA y cuatro antenas de alto rendimiento para una cobertura amplia y estable.",
+    "precio": 349900,
+    "fecha": "2023-10-10",
+    "imagenes": "https://cdn.pixabay.com/photo/2018/10/12/19/55/router-3742206_960_720.jpg",
+    "categoria": "Redes",
+    "usuario": {
+      "id": 10,
+      "nombre": "Usuario 10"
+    }
+  }
+]

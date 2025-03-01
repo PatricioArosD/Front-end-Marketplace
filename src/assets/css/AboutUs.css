@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.number {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  transition: color 0.3s ease-in-out;
+}
+
+.title:hover {
+  color: #007bff;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  transition: transform 0.3s ease-in-out;
+}
+
+.paragraph:hover {
+  transform: scale(1.05);
+}

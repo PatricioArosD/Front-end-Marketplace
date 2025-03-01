@@ -1,0 +1,163 @@
+/*Homepage*/
+.banner {
+  background-image: url("./assets/img/header.png");
+  background-size: cover;
+  height: 70vh;
+  position: relative;
+  background-position: center;
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.404); 
+  z-index:0;
+}
+.texto {
+  z-index: 1;
+  text-align: left;
+}
+.texto h1 {
+  font-size: 3rem;
+  color: white;
+  margin-top: 0;
+}
+.texto p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.banner-category {
+  background-image: url("./assets/img/banner-categoria.jpg");
+min-height: 60vh;
+background-position: center right;
+background-repeat: no-repeat;
+background-color: #000000;
+}
+.btn-category {
+
+  text-decoration: none;
+
+}
+.btn-category .card {
+  display: block;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.btn-category .card:hover {
+background-color: #17A398;
+color: white;
+}
+/*Navbar*/
+.navbar .btnav  {
+  border-radius: 5px;
+  border-width: 1px;
+  font-size: 1rem;
+}
+.navbar-expand-lg {
+  background-color: rgb(91, 114, 137);
+}
+.navbar span {
+  margin-right: 10px;
+}
+/*Profile page*/
+main, .profile {
+  min-height: 75vh;
+}
+.container.formulario {
+  max-width: 600px;
+}
+.btn.active {
+  color: rgb(255, 255, 255)!important; 
+  vertical-align: baseline;
+  border: 0;
+}
+.nav-link.active.baseline {
+  vertical-align: baseline;
+}
+.nav-link.active.underline-bold {
+  text-decoration: underline;
+  font-weight: bold;
+}
+/*ProductCard*/
+.card-body, .profile-btn {
+  background-color:#f7f7f7;
+}
+.card-img {
+  position: relative;
+  display: flex;
+  background-color: #ffffff;
+  padding: 2rem;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img img {
+  width: 60%;
+  height: auto;
+}
+
+.category {
+  position:absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.8rem;
+  color: #6c757d;
+  background-color: #17A398;
+  padding: 2px 8px;
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+}
+
+.product-page .category {
+  position: relative;
+  top: auto;
+  right: auto;
+  margin: 1rem 0;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #17A398;
+}
+.card-btn button {
+  width: 100%;
+  border-radius: 0 0 5px 5px;
+  background-color: #1B3B6F;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.card-btn button:hover {
+  background-color: #0c4cbc;
+} 
+.card-img .view-more {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+opacity: 0;
+font-size: 1.5rem;
+transition: opacity 0.3s;
+border-radius: 5px 5px 0 0;
+border: 0;
+}
+
+.card-img .view-more:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+} 
