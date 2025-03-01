@@ -8,13 +8,11 @@ const ApiProvider = ({ children }) => {
   const { user, token } = useContext(UserContext); // Get user and token from UserContext
   const [products, setProducts] = useState([]);
   const [favorites, setFavorites] = useState([]);
-  const viteurl = import.meta.env.VITE_URL; // Get the API URL from the environment variables;
   axios.defaults.baseURL = import.meta.env.VITE_URL; // Set the base URL for API calls
 
-  const url = "/productos"; // Correct path to productos.json in the public directory
   const getData = async () => {
     try {
-      const response = await axios.get(url);
+      const response = await axios.get("/productos");
       if (response.status !== 200) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
