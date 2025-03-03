@@ -8,7 +8,7 @@ import profileImage from "../assets/img/profile.png"; // Import profile image
 
 const Profile = () => {
   const { token, user, fetchUserData } = useContext(UserContext);
-  const { products, setProducts, refreshProducts, favorites, fetchFavorites } = useContext(ApiContext); // Use fetchFavorites from ApiContext
+  const { products, setProducts, refreshProducts, favorites, fetchFavorites, removeFavorite } = useContext(ApiContext); // Use fetchFavorites from ApiContext
   const navigate = useNavigate();
   const [categories, setCategories] = useState({}); // State to store category names
 
